@@ -25,13 +25,7 @@ body {
 }
 
 /* ================COMPONENTS============= */
-.title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -49,6 +43,13 @@ body {
   color: var(--accent-color);
 }
 
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 /* ================END COMPONENTS============= */
 
 /* ================HEADER============= */
@@ -67,9 +68,7 @@ body {
 .navigation-item:focus {
   color: var(--accent-color);
 }
-.navigation-item:active {
-  color: var(--accent-color);
-}
+
 .active-navigation-item {
   color: var(--accent-color);
 }
@@ -87,9 +86,7 @@ body {
 .header-contacts:focus {
   color: var(--accent-color);
 }
-.header-contacts:active {
-  color: var(--accent-color);
-}
+
 .header {
   background-color: var(--header-background-color);
 }
@@ -119,13 +116,12 @@ body {
 
 .modal-btn:hover {
   background-color: var(--accent-button);
+  cursor: pointer;
 }
 .modal-btn:focus {
   background-color: var(--accent-button);
 }
-.modal-btn:active {
-  background-color: var(--accent-button);
-}
+
 .hero {
   background-color: var(--background-dark-color);
 }
@@ -192,7 +188,41 @@ body {
 
 /* ================END FOOTER============= */
 
+/* *************** portfolio.html **************** */
+
 /* ================PORTFOLIO============= */
 .portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  background-color: var(--background-light-color);
+}
+
+.portfolio-btn:hover {
+  color: #ffffff;
+  cursor: pointer;
+  background-color: var(--accent-color);
+}
+.portfolio-btn:focus {
+  color: #ffffff;
+  cursor: pointer;
+  background-color: var(--accent-color);
+}
+
+.portfolio-item {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-subtitle {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
 }
 /* ================END PORTFOLIO============= */ ;
