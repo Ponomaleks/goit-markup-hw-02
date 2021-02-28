@@ -1,0 +1,198 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --main-color: #212121;
+  --secondary-color: #757575;
+  --accent-color: #2196f3;
+  --accent-button: #188ce8;
+  /* --main-background-color: #E5E5E5; не понимаю почему в макете на фоне этот цвет, а по факту отображается белый */
+  --header-background-color: #ffffff;
+  --background-light-color: #f5f4fa;
+  --background-dark-color: #2f303a;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--main-color);
+  background-color: var(--main-background-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* ================COMPONENTS============= */
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+  letter-spacing: 0.03em;
+}
+
+.logo-footer {
+  color: #ffffff;
+}
+
+.logo-web-part {
+  color: var(--accent-color);
+}
+
+/* ================END COMPONENTS============= */
+
+/* ================HEADER============= */
+
+.navigation-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.navigation-item:hover {
+  color: var(--accent-color);
+}
+.navigation-item:focus {
+  color: var(--accent-color);
+}
+.navigation-item:active {
+  color: var(--accent-color);
+}
+.active-navigation-item {
+  color: var(--accent-color);
+}
+
+.header-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+.header-contacts:hover {
+  color: var(--accent-color);
+}
+.header-contacts:focus {
+  color: var(--accent-color);
+}
+.header-contacts:active {
+  color: var(--accent-color);
+}
+.header {
+  background-color: var(--header-background-color);
+}
+/* ================END HEADER============= */
+
+/* ================HERO============= */
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.modal-btn {
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  font-family: inherit;
+}
+
+.modal-btn:hover {
+  background-color: var(--accent-button);
+}
+.modal-btn:focus {
+  background-color: var(--accent-button);
+}
+.modal-btn:active {
+  background-color: var(--accent-button);
+}
+.hero {
+  background-color: var(--background-dark-color);
+}
+/* ================END HERO============= */
+
+/* ================ABOUT============= */
+.about-list-item {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.about-list-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+/* ================END ABOUT============= */
+
+/* ================TEAM============= */
+.team-members {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.member-porofession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+.team {
+  background-color: var(--background-light-color);
+}
+/* ================END TEAM============= */
+
+/* ================FOOTER============= */
+
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-contacts {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer {
+  background-color: var(--background-dark-color);
+}
+
+/* ================END FOOTER============= */
+
+/* ================PORTFOLIO============= */
+.portfolio-btn {
+}
+/* ================END PORTFOLIO============= */ ;
