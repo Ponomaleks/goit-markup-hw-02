@@ -4,8 +4,7 @@
   --secondary-color: #757575;
   --accent-color: #2196f3;
   --accent-button: #188ce8;
-  /* --main-background-color: #E5E5E5; не понимаю почему в макете на фоне этот цвет, а по факту отображается белый */
-  --header-background-color: #ffffff;
+  --main-background-color: #ffffff;
   --background-light-color: #f5f4fa;
   --background-dark-color: #2f303a;
 }
@@ -88,7 +87,7 @@ body {
 }
 
 .header {
-  background-color: var(--header-background-color);
+  background-color: var(--main-background-color);
 }
 /* ================END HEADER============= */
 
